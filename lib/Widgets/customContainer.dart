@@ -1,11 +1,11 @@
 
 import 'package:flutter/material.dart';
 
-class formattedContainers extends StatelessWidget {
+class FormattedContainers extends StatelessWidget {
 
   final double height;
   final Color color;
-  formattedContainers(this.height, this.color);
+  FormattedContainers(this.height, this.color);
 
   @override
   Widget build(BuildContext context) {
